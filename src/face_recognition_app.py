@@ -17,7 +17,7 @@ import critical_detecting
 # import face_changing
 import fatigue_detecting
 import smile_detecting
-import facial_expression_recognition
+from FaceRecognition.src.detection import facial_expression_recognition
 
 from mainwindow import Ui_Face_recognition
 
