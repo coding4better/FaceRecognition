@@ -1,3 +1,6 @@
+# 该文件是一个基于PyQt5的人脸识别应用程序。
+# 提供了用户界面，支持打开摄像头、开始识别和选择不同功能。
+
 import sys,os
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *

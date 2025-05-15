@@ -1,13 +1,5 @@
 # 疲劳驾驶6.0
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 13 07:35:11 2021
-
-@author: 李立宗  lilizong@gmail.com
-微信公众号：计算机视觉之光（微信号cvlight）
-计算机视觉40例——从入门到深度学习（python+OpenCV）（待定名称）
-李立宗 著     电子工业出版社
-"""
 
 import numpy as np
 from scipy.spatial import distance as dist  #计算欧氏距离

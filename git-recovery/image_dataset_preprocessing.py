@@ -1,3 +1,5 @@
+# 该文件使用TensorFlow和TensorFlow Datasets对图像数据集进行预处理和增强。
+# 定义了图像转换和增强函数，划分不同批次用于训练和验证。
 
 import tensorflow as tf
 import numpy as np
@@ -5,7 +7,7 @@ import tensorflow_datasets as tfds
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from PIL import Image
-%matplotlib inline
+# %matplotlib inline
 
 train_dataset=r'F:\study\project\face\myface\images\capture_tian'
 

@@ -1,13 +1,8 @@
+# 该文件实现了人脸交换功能。
+# 通过dlib检测人脸关键点，计算仿射变换矩阵，将一张人脸特征融合到另一张脸上。
 
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 23 14:38:03 2021
 
-@author: 李立宗  lilizong@gmail.com
-微信公众号：计算机视觉之光（微信号cvlight）
-计算机视觉40例——从入门到深度学习（python+OpenCV）（待定名称）
-李立宗 著     电子工业出版社
-"""
 import cv2
 import dlib
 import numpy as np

@@ -1,10 +1,7 @@
+# 该文件实现了基于深度学习的实时年龄和性别检测功能。
+# 通过OpenCV捕获视频流，使用预训练模型识别人脸并预测年龄范围和性别。
+
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 23 20:20:57 2021
-
-@author: Administrator
-"""
-
 
 import cv2
 # =====模型初始化========

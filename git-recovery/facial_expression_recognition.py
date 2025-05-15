@@ -1,12 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 15 20:57:51 2021
+# 该文件实现了人脸表情识别功能。
+# 借助dlib库检测人脸关键点，计算嘴部特征比值，
+# 根据阈值判断表情并绘制嘴部轮廓。
 
-@author: 李立宗  lilizong@gmail.com
-微信公众号：计算机视觉之光（微信号cvlight）
-计算机视觉40例——从入门到深度学习（python+OpenCV）（待定名称）
-李立宗 著     电子工业出版社
-"""
+# -*- coding: utf-8 -*-
+
 from scipy.spatial import distance as dist   #计算欧式距离
 import numpy as np
 import dlib

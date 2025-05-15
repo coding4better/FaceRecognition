@@ -1,12 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 16 20:53:16 2021
+# 该文件实现了人脸表情识别和面部轮廓绘制的功能。
+# 通过计算嘴部的宽高比和嘴与脸颊的宽度比判断表情，
+# 并使用凸包和直线绘制面部各部分的轮廓。
 
-@author: 李立宗  lilizong@gmail.com
-微信公众号：计算机视觉之光（微信号cvlight）
-计算机视觉40例——从入门到深度学习（python+OpenCV）（待定名称）
-李立宗 著     电子工业出版社
-"""
+# -*- coding: utf-8 -*-
 from scipy.spatial import distance as dist
 import numpy as np
 import dlib

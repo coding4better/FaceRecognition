@@ -1,3 +1,6 @@
+# 该文件定义了数据集加载类和CNN网络模型类。
+# 数据集类负责数据加载和预处理，模型类负责模型的构建、训练和评估。
+
 import random
 import numpy as np
 from sklearn.model_selection import train_test_split
